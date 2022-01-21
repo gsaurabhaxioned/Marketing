@@ -117,7 +117,7 @@ nav ul li{
   text-align: center;
   padding: 20px 0;
   font-size: 27px;
-  background-color: #b8b7b6;
+  background-color: #F1F1F1;
 }
 /*=================================
   Header styling ends here
@@ -150,7 +150,7 @@ nav ul li{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #5e5e5d;
+  background-color: #616161;
   box-sizing: border-box;
   padding: 23px;
 }
@@ -178,14 +178,44 @@ width: 100%;
 }
 .what-we-offer-title{
   text-align: center;
+  font-size: 35px;
 }
 .what-we-offer-title span{
-  height: 3px;
+  height: 9px;
   width: 15%;
-  background-color: #5e5e5d;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #CCCCCC;
 }
-
-
+.what-we-offer .wrapper{
+  display: flex;
+  margin: 69px auto;
+}
+.our-offers{
+  border: 1px solid black;
+  padding: 54px 0 96px 26px;
+}
+.our-offers h3{
+  font-size: 32px;
+}
+.our-offers p{
+  margin-top: 35px;
+  font-size: 20px;
+}
+.our-offers:nth-child(1){
+  background-color:#F1F1F1 ;
+}
+.our-offers:nth-child(2){
+  background-color: #BBBBBB;
+}
+.our-offers:nth-child(3){
+  background-color: #616161;
+  color: #ffff;
+}
+.our-offers:nth-child(4){
+  background-color: black;
+  color: #ffff;
+}
 
 /*=================================
   main styling ends here
