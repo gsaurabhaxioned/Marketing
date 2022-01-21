@@ -90,6 +90,7 @@ body {
 a { 
   display: inline-block;
   text-decoration: none; 
+  color: black;
 }
 
 li {
@@ -100,7 +101,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1515px;
-  width: 95%; 
+  width: 97%; 
   margin: 0 auto;
 }
 /*=================================
@@ -116,16 +117,8 @@ nav ul li{
   text-align: center;
   padding: 20px 0;
   font-size: 27px;
-  background-color: #c2c0c0;
+  background-color: #b8b7b6;
 }
-nav ul li a{
-  color: black;
-}
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -133,11 +126,64 @@ nav ul li a{
 /*=================================
   main styling starts here
 =================================*/
+/*=================================
+  banner styling starts here
+=================================*/
 
+.banner{
+  width: 100%;
+  padding: 75px 0;
+}
+.banner h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner span{
+  display: inline-block;
+  margin-top: 49px;
+  font-size: 22px;
+}
+.banner figure{
+  margin-top: 50px;
+}
+.slider{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #5e5e5d;
+  box-sizing: border-box;
+  padding: 23px;
+}
 
-
-
-
+.left-arrow::before{
+  content: "\f0a8";
+  font-family: "fontAwesome";
+  font-size: 35px;
+  color: #ffff;
+}
+.buttons span{
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+/*=================================
+  banner styling ends here
+=================================*/
+/*=================================
+  what we offer section start here
+=================================*/
+.what-we-offer{
+width: 100%;
+}
+.what-we-offer-title{
+  text-align: center;
+}
+.what-we-offer-title span{
+  height: 3px;
+  width: 15%;
+  background-color: #5e5e5d;
+}
 
 
 
