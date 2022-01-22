@@ -330,10 +330,28 @@ width: 100%;
   .contact-us .wrapper{
     margin-top: 95px;
   }
+  .contact-us label{
+    font-size: 22px;
+  }
   .contact-us input{
     display: block;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 30px;
   }
-
+.contact-us button {
+  height: 60px;
+  width: 100%;
+  color: #FFFF;
+  background-color: black;
+}
+.contact-us button a{
+  height: 100%;
+  width: 100%;
+  color: #FFFF;
+  padding-top: 14px;
+  font-size: 22px;
+}
 /*=================================
   contact us section ends here
 =================================*/
@@ -346,8 +364,35 @@ width: 100%;
   footer styling starts here
 =================================*/ 
 
-
-
+footer{
+  width: 100%;
+  background-color: #F1F1F1;
+  padding: 75px 0;
+}
+.footer-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+footer h2{
+  font-size: 28px;
+}
+footer button{
+  display: block;
+  width: 190px;
+  padding: 20px;
+  background-color: black;
+  border: none;
+}
+footer button a{
+  color: #FFFF;
+  font-size: 18px;
+}
+footer button + span{
+  
+}
 
 
 
