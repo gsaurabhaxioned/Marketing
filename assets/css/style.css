@@ -97,6 +97,7 @@ li {
   display: inline-block;
   list-style-type: none;
 }
+/* styling for top part of each section starts */
 .section-top h2{
   text-align: center;
   font-size: 35px;
@@ -104,10 +105,22 @@ li {
 .section-top span{
   height: 9px;
   width: 15%;
-  margin: 10px auto;
-  display: inline-block;
+  margin: 22px auto;
+  display: block;
   background-color: #CCCCCC;
 }
+/* styling for top part of each section ends  */
+/* font color styling starts  */
+.dark-font{
+  color: black;
+}
+.normal-font{
+  color: #1C2C3B;
+}
+.faint-font{
+  color:#73736A
+}
+/* font color styling ends  */
 
 /*for wrapper*/
 .wrapper {
@@ -217,6 +230,52 @@ width: 100%;
   background-color: black;
   color: #ffff;
 }
+
+/*=================================
+ what we offer section ends here
+=================================*/
+
+/*=================================
+  pricing plans section starts here
+  =================================*/
+
+  .pricing-plans{
+    width: 100%;
+  }
+  .pricing-plans .wrapper{
+    padding: 120px 0;
+    display: flex;
+  }
+  .plan-features{
+    border: 1px solid black;
+  }
+  .pricing-plans ul{
+    width: 100%;
+  }
+  .pricing-plans ul li{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+/*=================================
+  pricing plans section ends here
+=================================*/
+/*=================================
+  who we are section starts here
+=================================*/
+.who-we-are{
+  width: 100%;;
+}
+.who-we-are .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.person-info{
+  border: 1px solid black;
+}
+/*=================================
+  who we are section ends here
+=================================*/
 
 /*=================================
   main styling ends here
