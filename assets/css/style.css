@@ -118,7 +118,7 @@ li {
   color: #1C2C3B;
 }
 .faint-font{
-  color:#73736A
+  color:#73736A;
 }
 /* font color styling ends  */
 
@@ -242,6 +242,10 @@ width: 100%;
   .pricing-plans{
     width: 100%;
   }
+  .choose-your-plan{
+    text-align: center;
+    margin-top: 36px;
+  }
   .pricing-plans .wrapper{
     padding: 120px 0;
     display: flex;
@@ -256,6 +260,10 @@ width: 100%;
     width: 100%;
     text-align: center;
     padding: 10px 0;
+    border: 1px solid #DDDDDD;
+  }
+  .plan-title{
+    height: 100px;
   }
 /*=================================
   pricing plans section ends here
