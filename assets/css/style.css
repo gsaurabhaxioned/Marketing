@@ -161,10 +161,13 @@ nav ul li{
 .hamburg-icon{
   display: none;
 }
-.hamburg-icon::before{
+.hamburg-icon::before,.cross-icon::before{
   content: "\f0c9";
   font-family: "fontAwesome";
   font-size: 30px;
+}
+.cross-icon::before{
+  content: "\f00d";
 }
 .hamburg-menu ul{
 display: flex;
