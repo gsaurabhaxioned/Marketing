@@ -115,7 +115,7 @@ li {
   color: black;
 }
 .normal-font{
-  color: #1C2C3B;
+  color: #020222;
 }
 .faint-font{
   color:#73736A;
@@ -249,9 +249,11 @@ width: 100%;
   .pricing-plans .wrapper{
     padding: 120px 0;
     display: flex;
+    justify-content: space-between;
   }
   .plan-features{
     border: 1px solid black;
+    flex-basis: 32%;
   }
   .pricing-plans ul{
     width: 100%;
@@ -264,10 +266,17 @@ width: 100%;
   }
   .plan-title{
     background: black;
-    color: #ffff;
+    color: #FFFF;
   }
   .plan-footer{
     background: #F1F1F1;
+  }
+  .plan-footer button{
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #FFFF;
+    padding: 22px 34px;
+    border: none;
   }
 /*=================================
   pricing plans section ends here
@@ -284,6 +293,7 @@ width: 100%;
 }
 .person-info{
   border: 1px solid black;
+  flex-basis: 32%;
 }
 /*=================================
   who we are section ends here
