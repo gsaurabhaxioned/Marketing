@@ -100,7 +100,7 @@ li {
 /* styling for top part of each section starts */
 .section-top h2{
   text-align: center;
-  font-size: 35px;
+  font-size: 33px;
 }
 .section-top span{
   height: 9px;
@@ -144,7 +144,7 @@ nav ul li{
   width: 100%;
   text-align: center;
   padding: 20px 0;
-  font-size: 27px;
+  font-size: 26px;
   background-color: #F1F1F1;
 }
 #hamburg-icon{
@@ -197,12 +197,12 @@ flex-direction: column;
   padding: 75px 0;
 }
 .banner h1{
-  font-size: 50px;
+  font-size: 54px;
   font-weight: bold;
 }
 .banner span{
   display: inline-block;
-  margin-top: 49px;
+  margin-top: 39px;
   font-size: 22px;
 }
 .banner figure{
@@ -241,6 +241,7 @@ flex-direction: column;
 =================================*/
 .what-we-offer{
 width: 100%;
+padding-top: 30px;
 }
 
 .what-we-offer .wrapper{
@@ -252,11 +253,11 @@ width: 100%;
   padding: 54px 0 96px 26px;
 }
 .our-offers h3{
-  font-size: 32px;
+  font-size: 34px;
 }
 .our-offers p{
   margin-top: 35px;
-  font-size: 20px;
+  font-size: 23px;
 }
 .our-offers:nth-child(1){
   background-color:#F1F1F1 ;
@@ -283,10 +284,12 @@ width: 100%;
 
   .pricing-plans{
     width: 100%;
+    padding-top: 43px;
   }
   .choose-your-plan{
     text-align: center;
     margin-top: 36px;
+    font-size: 23px;
   }
   .pricing-plans .wrapper{
     padding: 120px 0;
@@ -344,7 +347,7 @@ width: 100%;
   padding: 29px 26px;
 }
 .person-details h3{
-  font-size: 30px;
+  font-size: 32px;
 }
 .person-details span{
   display: block;
@@ -375,7 +378,7 @@ width: 100%;
     margin-top: 95px;
   }
   .contact-us label{
-    font-size: 22px;
+    font-size: 20px;
   }
   .contact-us input{
     display: block;
@@ -394,7 +397,7 @@ width: 100%;
   width: 100%;
   color: #FFFF;
   padding-top: 14px;
-  font-size: 22px;
+  font-size: 20px;
 }
 /*=================================
   contact us section ends here
@@ -421,7 +424,7 @@ footer{
   row-gap: 50px;
 }
 footer h2{
-  font-size: 28px;
+  font-size: 26px;
 }
 footer button{
   display: block;
