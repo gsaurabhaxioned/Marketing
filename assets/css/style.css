@@ -194,6 +194,9 @@ nav ul li{
   border: 1px solid black;
   margin-top: 5px;
 }
+.hamburger{
+  display: none;
+}
 /*=================================
   banner styling ends here
 =================================*/
@@ -430,5 +433,7 @@ footer button a{
 .what-we-offer .wrapper{
   flex-wrap: wrap;
 }
-
+.hamburger{
+  display: block;
+}
 }  
