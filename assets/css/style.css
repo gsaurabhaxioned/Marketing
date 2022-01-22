@@ -470,6 +470,7 @@ footer button a{
 }
 .top-icon::before{
   content: "\f062";
+  font-family: "fontAwesome";
   padding-right: 20px;
   font-size: 25px;
 }
@@ -507,8 +508,12 @@ footer button a{
 .what-we-offer .wrapper{
   flex-wrap: wrap;
 }
+.who-we-are .wrapper,.pricing-plans .wrapper{
+  flex-direction: column;
+}
 .person-details{
-  padding:29px 0;
+  padding:29px 2px;
+  gap: 0;
 }
 .hamburger{
   display: block;
