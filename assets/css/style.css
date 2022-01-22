@@ -179,11 +179,14 @@ nav ul li{
   padding: 23px;
 }
 
-.left-arrow::before{
+.left-arrow::before,.right-arrow::before{
   content: "\f0a8";
   font-family: "fontAwesome";
   font-size: 35px;
   color: #ffff;
+}
+.right-arrow::before{
+  content: "\f0a9";
 }
 .buttons span{
   height: 20px;
@@ -272,11 +275,13 @@ width: 100%;
     background: #F1F1F1;
   }
   .plan-footer button{
-    font-size: 20px;
     background-color: #4CAF50;
+    border: none;
+  }
+  .plan-footer button a{
+    font-size: 20px;
     color: #FFFF;
     padding: 22px 34px;
-    border: none;
   }
 /*=================================
   pricing plans section ends here
@@ -390,12 +395,29 @@ footer button a{
   color: #FFFF;
   font-size: 18px;
 }
-footer button + span{
-  
+.icon::before{
+  content: "\f082";
+  font-family: "fontAwesome";
+  font-size: 30px;
 }
-
-
-
+.icon:nth-child(2)::before{
+  content: "\f16d";
+}
+.icon:nth-child(3)::before{
+  content: "\f0f3";
+}
+.icon:nth-child(4)::before{
+  content: "\f231";
+}
+.icon:nth-child(5)::before{
+  content: "\f099";
+}
+.icon:nth-child(6)::before{
+  content: "\f0e1";
+}
+.footer-info span{
+  font-size: 23px;
+}
 
  /*=================================
   footer styling ends here
@@ -405,6 +427,8 @@ footer button + span{
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-
+.what-we-offer .wrapper{
+  flex-wrap: wrap;
+}
 
 }  
