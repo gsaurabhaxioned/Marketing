@@ -294,9 +294,48 @@ width: 100%;
 .person-info{
   border: 1px solid black;
   flex-basis: 32%;
+  box-shadow: 4px 4px #bbbb;
+}
+.person-details{
+  padding: 29px 26px;
+}
+.person-details h3{
+  font-size: 30px;
+}
+.person-details span{
+  display: block;
+  margin-top: 33px;
+  font-size: 20px;
+}
+.person-details p{
+  margin-top: 28px;
+  font-size: 18px;
+}
+.person-details button{
+  width: 100%;
+  margin-top: 25px;
+  padding: 18px;
+  border: none;
 }
 /*=================================
   who we are section ends here
+=================================*/
+/*=================================
+  contact us section starts here
+=================================*/
+  .contact-us{
+    width: 100%;
+    padding: 110px 0;
+  }
+  .contact-us .wrapper{
+    margin-top: 95px;
+  }
+  .contact-us input{
+    display: block;
+  }
+
+/*=================================
+  contact us section ends here
 =================================*/
 
 /*=================================
