@@ -121,7 +121,11 @@ li {
   color:#73736A;
 }
 /* font color styling ends  */
-
+/* for container  */
+.container{
+  overflow-x: hidden;
+}
+/* for container  */
 /*for wrapper*/
 .wrapper {
   max-width: 1515px;
@@ -142,6 +146,29 @@ nav ul li{
   padding: 20px 0;
   font-size: 27px;
   background-color: #F1F1F1;
+}
+#hamburg-icon{
+  display: none;
+}
+.hamburg-menu{
+  transform: translateX(100%);
+}
+.hamburg-icon::before{
+  content: "\f0c9";
+  font-family: "fontAwesome";
+  font-size: 30px;
+}
+.hamburg-menu ul{
+display: flex;
+flex-direction: column;
+}
+
+.hamburg-menu ul li{
+ border: 1px solid black; 
+ display: block;
+}
+.hamburger{
+  display: none;
 }
 /*=================================
   Header styling ends here
@@ -194,9 +221,7 @@ nav ul li{
   border: 1px solid black;
   margin-top: 5px;
 }
-.hamburger{
-  display: none;
-}
+
 /*=================================
   banner styling ends here
 =================================*/
@@ -436,4 +461,17 @@ footer button a{
 .hamburger{
   display: block;
 }
+/* .toggle{
+  display: block;
+} */
+.menu{
+  display: none;
+}
+.hamburg-icon{
+  display: block;
+}
+#hamburg-icon:checked ~ nav{
+  transform: translateX(1%);
+}
+
 }  
