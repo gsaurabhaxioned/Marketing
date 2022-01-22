@@ -141,7 +141,7 @@ nav ul{
   display: flex;
 }
 nav ul li{
-  width: 25%;
+  width: 100%;
   text-align: center;
   padding: 20px 0;
   font-size: 27px;
@@ -151,7 +151,15 @@ nav ul li{
   display: none;
 }
 .hamburg-menu{
-  transform: translateX(100%);
+  transform: translateX(-100%);
+  transition: transform 2s ease-in-out;
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.hamburg-icon{
+  display: none;
 }
 .hamburg-icon::before{
   content: "\f0c9";
@@ -458,6 +466,9 @@ footer button a{
 .what-we-offer .wrapper{
   flex-wrap: wrap;
 }
+.person-details{
+  padding:29px 0;
+}
 .hamburger{
   display: block;
 }
@@ -470,8 +481,10 @@ footer button a{
 .hamburg-icon{
   display: block;
 }
+
 #hamburg-icon:checked ~ nav{
-  transform: translateX(1%);
+  transform: translateX(0);
+  transition: transform 1s ease-in-out;
 }
 
 }  
